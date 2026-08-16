@@ -1,0 +1,15 @@
+//Q.write a c programe to converte lower case alphabet into higher case.
+
+#include<stdio.h>
+	int main(){
+		char alp;
+		printf("Enter lower case alphabet:");
+		scanf("%c",&alp);
+		
+		char Calp = alp-32;
+		printf("\n");
+		printf("%c",Calp);
+		
+	return 0;
+		
+	}
